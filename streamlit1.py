@@ -1,13 +1,8 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-import seaborn as sns
 #from time import sleep
 #from sympy import simplify
-
-
-# Título de  la página#
-#st.write('Hola mundo')
 
 
 # Título de  la página
@@ -42,12 +37,11 @@ with st.sidebar:
 
 
 # Secciones
-steps=st.tabs(["Pestaña 1", "Pestaña 2", "Pestaña $\sqrt{9}$"])
+steps=st.tabs(["Pestaña 1", "Pestaña $\sqrt{4}$"])
 
 #Sección 1
 with steps[0]:
-    n=st.number_input("Elige el número hermanos que tiene",min_value=0,max_value=10,step=1)
-
+    st.write('Hola mundo')
    
 
 # Sección 2
