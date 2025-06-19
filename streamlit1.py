@@ -24,7 +24,7 @@ t2.markdown(" **tel:** 3167465079 **| email:** andresvillabon2000@gmail.com ")
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
     "Elija una",
-    ["Me gusta", "Me gustz x2"]
+    ["Me gusta", "Me gusta x2"]
 )
 
 # Using "with" notation
