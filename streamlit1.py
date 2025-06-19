@@ -23,15 +23,15 @@ t2.markdown(" **tel:** 3167465079 **| email:** andresvillabon2000@gmail.com ")
 
 # Using object notation
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
+    "Elija una",
+    ["Me gusta", "Me gustz x2"]
 )
 
 # Using "with" notation
 with st.sidebar:
     add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
+        "Elija una calificación",
+        (5, "entre 4 y 4.9")
     )
 
 
@@ -46,5 +46,5 @@ with steps[0]:
 
 # Sección 2
 with steps[1]:
-    st.text_input("Your name", key="name")
+    st.text_input("Escribe tu nombre", key="name")
     st.session_state.name
