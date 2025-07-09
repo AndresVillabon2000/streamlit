@@ -10,6 +10,10 @@ st.set_page_config(layout="centered",
     page_title="Talento Tech",
     page_icon="🕰️"
 )
+password_guess = st.text_input('What is the Password?')
+if password_guess != 'hola_mundo':
+st.stop()
+#penguin_file = st.file_uploader('Upload your own penguin data')
 
 # Columnas
 
